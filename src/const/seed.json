@@ -1,0 +1,2622 @@
+[
+  {
+    "vehicle": [
+      {
+        "id": "9dafba10-6b69-4893-9bda-c0c0d6794cc3",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 23087,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "created_at": "2023-08-28T15:57:04.481Z",
+        "updated_at": "2023-08-28T13:54:15.927Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7d8f970-4e3d-47ad-b247-6f63e018a32b",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 7431,
+        "color": "Blue",
+        "registration_number": "DEF456",
+        "created_at": "2023-08-28T18:13:27.458Z",
+        "updated_at": "2023-08-28T13:19:26.628Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85804537-198e-4455-bc91-2946229a06a2",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 48741,
+        "color": "Black",
+        "registration_number": "GHI789",
+        "created_at": "2023-08-28T08:27:15.038Z",
+        "updated_at": "2023-08-29T05:41:05.462Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d926ce13-f354-4322-a52c-deb1ea15c5e2",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 4507,
+        "color": "White",
+        "registration_number": "JKL012",
+        "created_at": "2023-08-29T04:28:15.455Z",
+        "updated_at": "2023-08-28T21:06:08.465Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ed2ed2a-56e0-42e7-9758-83922cf943cd",
+        "make": "BMW",
+        "model": "X5",
+        "year": 28089,
+        "color": "Silver",
+        "registration_number": "MNO345",
+        "created_at": "2023-08-28T09:31:41.252Z",
+        "updated_at": "2023-08-28T19:05:23.399Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "7af34d5f-dbde-47f3-bfd4-5eb00f897811",
+        "date": "2023-08-28T22:32:35.313Z",
+        "duration": 90826,
+        "mileage": 3603,
+        "created_at": "2023-08-28T14:07:55.492Z",
+        "updated_at": "2023-08-29T04:29:40.338Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "85804537-198e-4455-bc91-2946229a06a2"
+      },
+      {
+        "id": "1f9468c1-899b-4610-833f-f129dd66bc56",
+        "date": "2023-08-28T22:11:42.891Z",
+        "duration": 4913,
+        "mileage": 93332,
+        "created_at": "2023-08-28T14:17:26.173Z",
+        "updated_at": "2023-08-28T18:27:21.367Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d926ce13-f354-4322-a52c-deb1ea15c5e2"
+      },
+      {
+        "id": "5520d4f6-b15d-4151-9c66-2ba1497a45a9",
+        "date": "2023-08-28T09:20:07.925Z",
+        "duration": 87810,
+        "mileage": 88733,
+        "created_at": "2023-08-29T06:09:27.116Z",
+        "updated_at": "2023-08-28T21:52:39.363Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9dafba10-6b69-4893-9bda-c0c0d6794cc3"
+      },
+      {
+        "id": "c0a7c3b3-33ae-43a6-9c5c-1d0efdbbdbd4",
+        "date": "2023-08-29T06:17:00.801Z",
+        "duration": 23785,
+        "mileage": 39348,
+        "created_at": "2023-08-28T17:46:14.163Z",
+        "updated_at": "2023-08-29T00:12:31.457Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d926ce13-f354-4322-a52c-deb1ea15c5e2"
+      },
+      {
+        "id": "c391b54a-f3ff-42d8-8797-84f478906eba",
+        "date": "2023-08-28T15:27:31.507Z",
+        "duration": 37681,
+        "mileage": 79911,
+        "created_at": "2023-08-29T03:12:49.246Z",
+        "updated_at": "2023-08-28T17:46:56.088Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "85804537-198e-4455-bc91-2946229a06a2"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "40f39e53-630f-4d1f-9f41-1e510017da77",
+        "start_time": "2023-08-28T09:10:05.374Z",
+        "end_time": "2023-08-29T04:06:40.970Z",
+        "created_at": "2023-08-29T04:58:07.838Z",
+        "updated_at": "2023-08-29T02:15:28.944Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9dafba10-6b69-4893-9bda-c0c0d6794cc3"
+      },
+      {
+        "id": "b2110a78-3f5e-4bc2-8b57-19dc4967263e",
+        "start_time": "2023-08-29T02:02:34.053Z",
+        "end_time": "2023-08-28T23:05:52.208Z",
+        "created_at": "2023-08-28T10:02:49.770Z",
+        "updated_at": "2023-08-28T22:14:05.176Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "c7d8f970-4e3d-47ad-b247-6f63e018a32b"
+      },
+      {
+        "id": "a265a686-3303-4c22-b1e1-ebb48a455a27",
+        "start_time": "2023-08-29T07:05:07.501Z",
+        "end_time": "2023-08-29T05:39:48.522Z",
+        "created_at": "2023-08-28T11:36:52.244Z",
+        "updated_at": "2023-08-29T02:40:36.120Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9dafba10-6b69-4893-9bda-c0c0d6794cc3"
+      },
+      {
+        "id": "760a84bc-2368-42fd-bdcf-b71253b45d3d",
+        "start_time": "2023-08-29T03:17:43.394Z",
+        "end_time": "2023-08-28T22:45:37.360Z",
+        "created_at": "2023-08-28T18:53:46.250Z",
+        "updated_at": "2023-08-28T08:12:28.588Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9dafba10-6b69-4893-9bda-c0c0d6794cc3"
+      },
+      {
+        "id": "b3435ec4-b287-4a2e-ad2c-9f3b21940eb9",
+        "start_time": "2023-08-29T01:50:46.633Z",
+        "end_time": "2023-08-28T07:31:46.453Z",
+        "created_at": "2023-08-28T13:43:56.016Z",
+        "updated_at": "2023-08-28T22:25:03.111Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "7ed2ed2a-56e0-42e7-9758-83922cf943cd"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "512bcd8b-74eb-4b77-b048-9257e02ff510",
+        "date": "2023-08-28T22:25:03.184Z",
+        "usage_duration": 24060,
+        "total_mileage": 72518,
+        "average_speed": 77028,
+        "created_at": "2023-08-28T20:40:16.110Z",
+        "updated_at": "2023-08-28T22:08:40.589Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9dafba10-6b69-4893-9bda-c0c0d6794cc3"
+      },
+      {
+        "id": "97abf478-74e3-4db6-b831-5106d0412f17",
+        "date": "2023-08-28T10:10:49.597Z",
+        "usage_duration": 10417,
+        "total_mileage": 68069,
+        "average_speed": 57380,
+        "created_at": "2023-08-28T09:44:08.734Z",
+        "updated_at": "2023-08-28T23:18:09.988Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9dafba10-6b69-4893-9bda-c0c0d6794cc3"
+      },
+      {
+        "id": "ee7b50e9-6d9d-487a-a562-5510bd0adac8",
+        "date": "2023-08-29T02:17:58.883Z",
+        "usage_duration": 70795,
+        "total_mileage": 69948,
+        "average_speed": 66720,
+        "created_at": "2023-08-28T18:35:58.868Z",
+        "updated_at": "2023-08-28T20:01:15.525Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d926ce13-f354-4322-a52c-deb1ea15c5e2"
+      },
+      {
+        "id": "dd04ce74-1592-429f-a022-aeb811a09e56",
+        "date": "2023-08-28T07:38:26.446Z",
+        "usage_duration": 70414,
+        "total_mileage": 41418,
+        "average_speed": 5752,
+        "created_at": "2023-08-28T18:42:07.011Z",
+        "updated_at": "2023-08-29T06:27:28.312Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "c7d8f970-4e3d-47ad-b247-6f63e018a32b"
+      },
+      {
+        "id": "2c5ed8a6-b6d3-4e5d-914b-0f326ec5a99f",
+        "date": "2023-08-28T16:35:55.931Z",
+        "usage_duration": 72248,
+        "total_mileage": 15031,
+        "average_speed": 94452,
+        "created_at": "2023-08-28T15:05:25.257Z",
+        "updated_at": "2023-08-28T08:36:21.416Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "85804537-198e-4455-bc91-2946229a06a2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d27141e8-c96a-4750-b980-d5914eddc203",
+        "email": "Jerrold3@hotmail.com",
+        "firstName": "Jessica",
+        "lastName": "Yundt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/188.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4e57e6e1-5778-48dd-9af0-76ce784c664c",
+        "email": "Vladimir.Murray@gmail.com",
+        "firstName": "Dudley",
+        "lastName": "Moore",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87322586",
+        "tenantId": null
+      },
+      {
+        "reference": "ad77225d-f036-4005-8795-0eaa0a8be754",
+        "email": "Mathilde_Hoeger@yahoo.com",
+        "firstName": "Mabelle",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/934.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5100397b-3f88-4d47-97ad-72399a711400",
+        "email": "Jamel_Cruickshank-Gusikowski10@yahoo.com",
+        "firstName": "Delta",
+        "lastName": "Schultz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72151096",
+        "tenantId": null
+      },
+      {
+        "reference": "c7729cc4-4046-483d-87c1-602b8154293b",
+        "email": "Cory_Runte@gmail.com",
+        "firstName": "Justina",
+        "lastName": "Dietrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22982796",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "0b388682-17ea-464a-b8d7-552d9505f690",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 80484,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "created_at": "2023-08-28T10:50:24.254Z",
+        "updated_at": "2023-08-28T18:18:58.038Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34df2738-18ab-4a51-af03-4d115fefecc5",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 93946,
+        "color": "Blue",
+        "registration_number": "DEF456",
+        "created_at": "2023-08-28T15:40:00.636Z",
+        "updated_at": "2023-08-29T03:19:45.338Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82f36c46-46b0-4761-bc34-ff0108f1fd9b",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 38174,
+        "color": "Green",
+        "registration_number": "GHI789",
+        "created_at": "2023-08-29T04:52:00.690Z",
+        "updated_at": "2023-08-28T10:17:10.225Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "202bd6a5-39d0-4f8c-94c0-4a24d7d62dee",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 13082,
+        "color": "Black",
+        "registration_number": "JKL012",
+        "created_at": "2023-08-29T05:30:34.971Z",
+        "updated_at": "2023-08-28T22:54:00.462Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d6e5324-50ea-4db4-8f24-fd22b25b2ae1",
+        "make": "BMW",
+        "model": "X5",
+        "year": 97783,
+        "color": "White",
+        "registration_number": "MNO345",
+        "created_at": "2023-08-28T21:23:23.588Z",
+        "updated_at": "2023-08-28T14:05:13.199Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "10ad22dc-9c8b-4245-94d7-e0f6837fc544",
+        "date": "2023-08-29T02:35:48.250Z",
+        "duration": 27710,
+        "mileage": 7818,
+        "created_at": "2023-08-28T14:52:06.005Z",
+        "updated_at": "2023-08-29T06:57:29.883Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "34df2738-18ab-4a51-af03-4d115fefecc5"
+      },
+      {
+        "id": "ab10dd27-8022-4680-826c-1f299f22ac76",
+        "date": "2023-08-28T22:43:51.485Z",
+        "duration": 55337,
+        "mileage": 96751,
+        "created_at": "2023-08-28T14:20:40.231Z",
+        "updated_at": "2023-08-28T18:13:07.819Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "82f36c46-46b0-4761-bc34-ff0108f1fd9b"
+      },
+      {
+        "id": "22a53b24-2f36-4df1-8fc8-85b36c5676cd",
+        "date": "2023-08-29T00:04:14.409Z",
+        "duration": 76320,
+        "mileage": 85740,
+        "created_at": "2023-08-28T17:55:35.875Z",
+        "updated_at": "2023-08-28T15:23:52.375Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "82f36c46-46b0-4761-bc34-ff0108f1fd9b"
+      },
+      {
+        "id": "a636d82f-8f51-4a3b-a18f-7ce903acdc81",
+        "date": "2023-08-29T06:05:03.332Z",
+        "duration": 18298,
+        "mileage": 58879,
+        "created_at": "2023-08-29T01:22:22.904Z",
+        "updated_at": "2023-08-29T05:52:06.901Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "34df2738-18ab-4a51-af03-4d115fefecc5"
+      },
+      {
+        "id": "acbc58c2-9fe0-45b7-a120-44af3f359100",
+        "date": "2023-08-28T07:59:20.713Z",
+        "duration": 99318,
+        "mileage": 79879,
+        "created_at": "2023-08-28T19:22:39.533Z",
+        "updated_at": "2023-08-28T08:30:24.438Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9d6e5324-50ea-4db4-8f24-fd22b25b2ae1"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "3772f8d5-d69a-4311-9d74-16e53d8ba0b5",
+        "start_time": "2023-08-28T22:59:04.023Z",
+        "end_time": "2023-08-28T15:13:30.827Z",
+        "created_at": "2023-08-28T12:10:02.009Z",
+        "updated_at": "2023-08-28T17:10:10.940Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "34df2738-18ab-4a51-af03-4d115fefecc5"
+      },
+      {
+        "id": "ec021087-5b71-47bc-a2fe-f4751760214d",
+        "start_time": "2023-08-28T15:23:06.988Z",
+        "end_time": "2023-08-29T06:27:20.322Z",
+        "created_at": "2023-08-28T22:34:38.777Z",
+        "updated_at": "2023-08-28T10:24:10.145Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9d6e5324-50ea-4db4-8f24-fd22b25b2ae1"
+      },
+      {
+        "id": "3959a4ca-c640-4ebb-830c-2c194458f75f",
+        "start_time": "2023-08-28T22:47:22.100Z",
+        "end_time": "2023-08-28T09:21:21.758Z",
+        "created_at": "2023-08-28T22:16:34.389Z",
+        "updated_at": "2023-08-28T17:05:45.803Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9d6e5324-50ea-4db4-8f24-fd22b25b2ae1"
+      },
+      {
+        "id": "2f8cbe30-bfd7-4bcb-a23d-85e3e64de109",
+        "start_time": "2023-08-29T05:59:08.567Z",
+        "end_time": "2023-08-29T04:53:06.072Z",
+        "created_at": "2023-08-28T15:47:41.312Z",
+        "updated_at": "2023-08-28T15:57:04.608Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9d6e5324-50ea-4db4-8f24-fd22b25b2ae1"
+      },
+      {
+        "id": "c7f945d0-d295-4945-9e34-b71471332d34",
+        "start_time": "2023-08-29T01:44:14.285Z",
+        "end_time": "2023-08-28T16:43:50.976Z",
+        "created_at": "2023-08-29T02:40:05.011Z",
+        "updated_at": "2023-08-28T13:13:52.825Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "82f36c46-46b0-4761-bc34-ff0108f1fd9b"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "464a0f6b-7cc8-423c-97bb-6c49a2bc00d7",
+        "date": "2023-08-28T12:30:12.533Z",
+        "usage_duration": 7526,
+        "total_mileage": 75327,
+        "average_speed": 18514,
+        "created_at": "2023-08-28T09:52:12.785Z",
+        "updated_at": "2023-08-28T15:10:18.910Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "34df2738-18ab-4a51-af03-4d115fefecc5"
+      },
+      {
+        "id": "bfef1385-6374-46fc-951d-6e2ef48f299a",
+        "date": "2023-08-29T03:04:34.316Z",
+        "usage_duration": 10349,
+        "total_mileage": 2468,
+        "average_speed": 63023,
+        "created_at": "2023-08-28T07:58:29.227Z",
+        "updated_at": "2023-08-28T11:41:50.597Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9d6e5324-50ea-4db4-8f24-fd22b25b2ae1"
+      },
+      {
+        "id": "a539b456-186b-47c4-b878-41f75fa71891",
+        "date": "2023-08-28T07:39:56.956Z",
+        "usage_duration": 49034,
+        "total_mileage": 95205,
+        "average_speed": 14152,
+        "created_at": "2023-08-29T07:02:29.469Z",
+        "updated_at": "2023-08-28T19:38:46.785Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "202bd6a5-39d0-4f8c-94c0-4a24d7d62dee"
+      },
+      {
+        "id": "2ec8f381-b076-4c2d-9ce1-22ed8c51f623",
+        "date": "2023-08-29T02:35:38.045Z",
+        "usage_duration": 29583,
+        "total_mileage": 62391,
+        "average_speed": 39293,
+        "created_at": "2023-08-29T00:20:40.366Z",
+        "updated_at": "2023-08-29T00:43:14.644Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "202bd6a5-39d0-4f8c-94c0-4a24d7d62dee"
+      },
+      {
+        "id": "2475b1cb-1f5f-4cc6-8935-3e155e1bd970",
+        "date": "2023-08-29T02:59:45.392Z",
+        "usage_duration": 23868,
+        "total_mileage": 7149,
+        "average_speed": 57421,
+        "created_at": "2023-08-28T08:33:31.493Z",
+        "updated_at": "2023-08-28T08:04:12.837Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9d6e5324-50ea-4db4-8f24-fd22b25b2ae1"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4abfb0ac-6fb7-44d8-a52a-fc74356a1ca9",
+        "email": "Camron45@gmail.com",
+        "firstName": "Carroll",
+        "lastName": "Smitham",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57795578",
+        "tenantId": null
+      },
+      {
+        "reference": "8f1d6fc1-934c-43c4-a8e7-6507bb0b29fd",
+        "email": "Adele.Pfannerstill93@yahoo.com",
+        "firstName": "Shaina",
+        "lastName": "Ratke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64596303",
+        "tenantId": null
+      },
+      {
+        "reference": "64c3630f-0220-427b-a8b8-cc8557067566",
+        "email": "Reva77@yahoo.com",
+        "firstName": "Yazmin",
+        "lastName": "Beier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/547.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "441d6dd4-c67d-4764-98de-26504369a037",
+        "email": "Maximillian.Toy@hotmail.com",
+        "firstName": "Jon",
+        "lastName": "Rohan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/837.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2f25101a-0af3-425d-b098-9bb6c5a8ead3",
+        "email": "Hayden.Kub@gmail.com",
+        "firstName": "Gavin",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37358128",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "6988c2e1-d6da-4e0b-a9c8-1d0512b8bea8",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 1400,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "created_at": "2023-08-28T11:40:33.014Z",
+        "updated_at": "2023-08-29T06:18:32.553Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d1574b1-db07-4ed0-89d7-a4c3e8c7ce95",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 56962,
+        "color": "Blue",
+        "registration_number": "DEF456",
+        "created_at": "2023-08-28T15:31:56.123Z",
+        "updated_at": "2023-08-29T05:10:28.847Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "321ec178-f53c-4bc1-adff-9a2f423d3bfa",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 39656,
+        "color": "Black",
+        "registration_number": "GHI789",
+        "created_at": "2023-08-29T06:10:36.642Z",
+        "updated_at": "2023-08-28T22:13:19.403Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59101b5e-656c-4ca6-bcfe-e82da08ea203",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 49619,
+        "color": "White",
+        "registration_number": "JKL012",
+        "created_at": "2023-08-28T16:28:12.656Z",
+        "updated_at": "2023-08-28T23:21:43.074Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2b162bf-6465-4ba4-bd64-1768fba844b7",
+        "make": "BMW",
+        "model": "X5",
+        "year": 52762,
+        "color": "Silver",
+        "registration_number": "MNO345",
+        "created_at": "2023-08-28T22:02:43.276Z",
+        "updated_at": "2023-08-28T23:08:06.594Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "7e895c25-d612-4d8e-b569-274386b423be",
+        "date": "2023-08-28T09:36:59.761Z",
+        "duration": 72688,
+        "mileage": 94334,
+        "created_at": "2023-08-29T04:36:26.641Z",
+        "updated_at": "2023-08-29T00:24:04.044Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5d1574b1-db07-4ed0-89d7-a4c3e8c7ce95"
+      },
+      {
+        "id": "8e7d1323-df70-4ec9-9c13-01cf21407d7b",
+        "date": "2023-08-28T13:13:24.985Z",
+        "duration": 3958,
+        "mileage": 39687,
+        "created_at": "2023-08-28T14:50:26.007Z",
+        "updated_at": "2023-08-28T21:21:22.602Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "59101b5e-656c-4ca6-bcfe-e82da08ea203"
+      },
+      {
+        "id": "79b58be5-568a-4308-8506-ffd66156577e",
+        "date": "2023-08-28T08:38:53.874Z",
+        "duration": 24146,
+        "mileage": 89858,
+        "created_at": "2023-08-28T11:28:56.665Z",
+        "updated_at": "2023-08-28T13:08:26.729Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a2b162bf-6465-4ba4-bd64-1768fba844b7"
+      },
+      {
+        "id": "ea27da08-94d7-4a11-9858-6a701cfb0930",
+        "date": "2023-08-28T17:14:36.536Z",
+        "duration": 58959,
+        "mileage": 46582,
+        "created_at": "2023-08-28T22:36:18.443Z",
+        "updated_at": "2023-08-28T22:35:42.619Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5d1574b1-db07-4ed0-89d7-a4c3e8c7ce95"
+      },
+      {
+        "id": "d82baaae-3b32-4dff-a29b-e407b8d9132c",
+        "date": "2023-08-29T04:16:24.302Z",
+        "duration": 65352,
+        "mileage": 4664,
+        "created_at": "2023-08-28T10:00:29.584Z",
+        "updated_at": "2023-08-29T01:45:57.826Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a2b162bf-6465-4ba4-bd64-1768fba844b7"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "24d2c98f-726a-42f0-a389-ae862fd63417",
+        "start_time": "2023-08-29T00:51:09.774Z",
+        "end_time": "2023-08-29T04:51:25.729Z",
+        "created_at": "2023-08-29T04:42:14.400Z",
+        "updated_at": "2023-08-28T12:32:31.953Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "59101b5e-656c-4ca6-bcfe-e82da08ea203"
+      },
+      {
+        "id": "03820f41-f05b-43cc-87f5-675c54c33a70",
+        "start_time": "2023-08-29T01:05:15.901Z",
+        "end_time": "2023-08-28T15:20:07.133Z",
+        "created_at": "2023-08-28T09:32:45.664Z",
+        "updated_at": "2023-08-29T01:41:01.083Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "59101b5e-656c-4ca6-bcfe-e82da08ea203"
+      },
+      {
+        "id": "32846516-9e4e-4a3d-b2a6-e27236105cc0",
+        "start_time": "2023-08-28T21:34:42.586Z",
+        "end_time": "2023-08-28T18:06:58.034Z",
+        "created_at": "2023-08-28T23:51:46.104Z",
+        "updated_at": "2023-08-29T04:08:06.100Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "59101b5e-656c-4ca6-bcfe-e82da08ea203"
+      },
+      {
+        "id": "11e508af-094a-4193-959d-0af2545acf4c",
+        "start_time": "2023-08-28T22:13:11.899Z",
+        "end_time": "2023-08-29T06:25:20.026Z",
+        "created_at": "2023-08-28T21:04:29.309Z",
+        "updated_at": "2023-08-28T23:09:31.696Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "321ec178-f53c-4bc1-adff-9a2f423d3bfa"
+      },
+      {
+        "id": "b50e4224-a577-4761-b1c1-f2017c01b0ec",
+        "start_time": "2023-08-28T21:30:51.516Z",
+        "end_time": "2023-08-28T11:03:30.380Z",
+        "created_at": "2023-08-29T03:54:50.919Z",
+        "updated_at": "2023-08-28T19:40:46.275Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "321ec178-f53c-4bc1-adff-9a2f423d3bfa"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "57066bce-2ef4-4ba0-98c3-0fbbacde985e",
+        "date": "2023-08-28T22:21:43.849Z",
+        "usage_duration": 61665,
+        "total_mileage": 99251,
+        "average_speed": 78354,
+        "created_at": "2023-08-28T10:13:28.320Z",
+        "updated_at": "2023-08-29T05:26:00.445Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "59101b5e-656c-4ca6-bcfe-e82da08ea203"
+      },
+      {
+        "id": "ab62b699-eeac-4131-ad8d-acb34775308c",
+        "date": "2023-08-29T04:29:00.921Z",
+        "usage_duration": 98191,
+        "total_mileage": 78029,
+        "average_speed": 73535,
+        "created_at": "2023-08-28T16:09:37.710Z",
+        "updated_at": "2023-08-28T17:05:57.185Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "59101b5e-656c-4ca6-bcfe-e82da08ea203"
+      },
+      {
+        "id": "a22361ac-38ad-416a-b87e-e7b913e30586",
+        "date": "2023-08-28T15:28:47.536Z",
+        "usage_duration": 24853,
+        "total_mileage": 19464,
+        "average_speed": 7911,
+        "created_at": "2023-08-28T13:08:57.873Z",
+        "updated_at": "2023-08-29T05:11:18.619Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "6988c2e1-d6da-4e0b-a9c8-1d0512b8bea8"
+      },
+      {
+        "id": "b3313b2c-ba45-41f0-a774-fbf8cdef4ff1",
+        "date": "2023-08-29T00:32:49.547Z",
+        "usage_duration": 54678,
+        "total_mileage": 31058,
+        "average_speed": 12276,
+        "created_at": "2023-08-28T19:57:05.045Z",
+        "updated_at": "2023-08-28T19:12:19.937Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "6988c2e1-d6da-4e0b-a9c8-1d0512b8bea8"
+      },
+      {
+        "id": "e7c7007e-5d28-4255-8c43-e66a57a66a00",
+        "date": "2023-08-29T01:05:40.047Z",
+        "usage_duration": 44359,
+        "total_mileage": 48890,
+        "average_speed": 40751,
+        "created_at": "2023-08-28T21:12:19.117Z",
+        "updated_at": "2023-08-28T21:39:39.591Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "321ec178-f53c-4bc1-adff-9a2f423d3bfa"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "db9fdad5-802f-4ef4-b53d-6be253e5ff86",
+        "email": "Hipolito.Jenkins@hotmail.com",
+        "firstName": "Gerard",
+        "lastName": "Stark",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/356.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6dda646f-4f92-4704-a270-f4caeac354d6",
+        "email": "Rebeka46@yahoo.com",
+        "firstName": "Malinda",
+        "lastName": "Parisian",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18567420",
+        "tenantId": null
+      },
+      {
+        "reference": "26abcbfb-486b-468f-beab-888c49d8f51d",
+        "email": "Keyshawn.Kunze4@gmail.com",
+        "firstName": "Priscilla",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/642.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9b924559-1c84-4ec0-a5d7-38e564febdc5",
+        "email": "Fannie.Mills@gmail.com",
+        "firstName": "Kay",
+        "lastName": "Runolfsson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81228837",
+        "tenantId": null
+      },
+      {
+        "reference": "66ed44c1-6671-4ae8-a8f8-e93e03a7d71c",
+        "email": "Sydnee.DAmore@hotmail.com",
+        "firstName": "Violette",
+        "lastName": "Ernser",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/817.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "970c4772-dba6-43ea-9a0f-2d7108dee859",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 84404,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "created_at": "2023-08-28T19:19:25.242Z",
+        "updated_at": "2023-08-28T13:47:42.925Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cdae5523-7085-4463-a651-e97f36aaed06",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 28869,
+        "color": "Blue",
+        "registration_number": "DEF456",
+        "created_at": "2023-08-29T05:46:05.873Z",
+        "updated_at": "2023-08-28T10:14:22.107Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e76f56c9-d2ec-4d14-9657-83e556425f69",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 648,
+        "color": "Green",
+        "registration_number": "GHI789",
+        "created_at": "2023-08-28T19:31:17.711Z",
+        "updated_at": "2023-08-28T17:55:17.010Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d33666c-e2d6-4e91-8d39-37fecd143a18",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 10887,
+        "color": "Black",
+        "registration_number": "JKL012",
+        "created_at": "2023-08-29T05:04:06.752Z",
+        "updated_at": "2023-08-29T01:29:35.587Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc53f27b-1ea2-44b8-9c73-a07e1377fee1",
+        "make": "BMW",
+        "model": "X5",
+        "year": 55284,
+        "color": "White",
+        "registration_number": "MNO345",
+        "created_at": "2023-08-29T03:15:45.416Z",
+        "updated_at": "2023-08-29T03:52:48.101Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "cec711db-c7a2-4f92-ab6b-7a00167b187b",
+        "date": "2023-08-28T08:52:18.309Z",
+        "duration": 69921,
+        "mileage": 48284,
+        "created_at": "2023-08-28T09:23:26.430Z",
+        "updated_at": "2023-08-29T05:43:19.183Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "fc53f27b-1ea2-44b8-9c73-a07e1377fee1"
+      },
+      {
+        "id": "b8344304-ed30-4487-b2d4-7f7179e2f4c0",
+        "date": "2023-08-28T11:56:57.231Z",
+        "duration": 30037,
+        "mileage": 76027,
+        "created_at": "2023-08-29T02:06:47.657Z",
+        "updated_at": "2023-08-28T19:30:10.410Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "fc53f27b-1ea2-44b8-9c73-a07e1377fee1"
+      },
+      {
+        "id": "b52c9180-1ae5-4b55-a2d3-ef0c7a3bb186",
+        "date": "2023-08-28T12:53:28.710Z",
+        "duration": 73553,
+        "mileage": 22846,
+        "created_at": "2023-08-28T18:08:54.634Z",
+        "updated_at": "2023-08-28T13:53:04.209Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "1d33666c-e2d6-4e91-8d39-37fecd143a18"
+      },
+      {
+        "id": "6812fc7b-b1a3-4e2f-871a-9da3c667ecad",
+        "date": "2023-08-28T18:07:18.086Z",
+        "duration": 95232,
+        "mileage": 69080,
+        "created_at": "2023-08-28T16:57:43.857Z",
+        "updated_at": "2023-08-29T04:06:15.956Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "970c4772-dba6-43ea-9a0f-2d7108dee859"
+      },
+      {
+        "id": "b552dc7d-d0b8-4f75-b91c-51e54b7a2447",
+        "date": "2023-08-28T16:18:58.222Z",
+        "duration": 17910,
+        "mileage": 22715,
+        "created_at": "2023-08-28T07:22:37.235Z",
+        "updated_at": "2023-08-28T16:55:56.555Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "970c4772-dba6-43ea-9a0f-2d7108dee859"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "17ebfed5-4d9e-4dc0-b165-5e9c1ba8eac6",
+        "start_time": "2023-08-29T06:34:35.798Z",
+        "end_time": "2023-08-28T21:11:20.197Z",
+        "created_at": "2023-08-29T04:00:02.609Z",
+        "updated_at": "2023-08-28T15:37:06.701Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "1d33666c-e2d6-4e91-8d39-37fecd143a18"
+      },
+      {
+        "id": "a4ebbb54-2fb9-4a7d-a59c-05757f37eaed",
+        "start_time": "2023-08-28T21:48:16.979Z",
+        "end_time": "2023-08-28T07:23:05.984Z",
+        "created_at": "2023-08-28T16:36:16.923Z",
+        "updated_at": "2023-08-29T02:02:41.066Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "1d33666c-e2d6-4e91-8d39-37fecd143a18"
+      },
+      {
+        "id": "3c79a625-6435-428d-8349-f1a156b35058",
+        "start_time": "2023-08-28T20:47:08.752Z",
+        "end_time": "2023-08-28T22:46:51.518Z",
+        "created_at": "2023-08-29T06:04:39.236Z",
+        "updated_at": "2023-08-28T20:17:30.318Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "cdae5523-7085-4463-a651-e97f36aaed06"
+      },
+      {
+        "id": "350aafe3-4e8a-4b30-9e9f-d0134cbbad18",
+        "start_time": "2023-08-28T19:02:41.482Z",
+        "end_time": "2023-08-29T05:12:47.308Z",
+        "created_at": "2023-08-29T03:31:31.745Z",
+        "updated_at": "2023-08-28T15:08:29.341Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "1d33666c-e2d6-4e91-8d39-37fecd143a18"
+      },
+      {
+        "id": "c07bd14c-0a7d-4423-a567-de083a521369",
+        "start_time": "2023-08-29T03:55:20.450Z",
+        "end_time": "2023-08-28T10:48:14.272Z",
+        "created_at": "2023-08-28T12:55:37.803Z",
+        "updated_at": "2023-08-29T05:17:58.864Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "fc53f27b-1ea2-44b8-9c73-a07e1377fee1"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "4625bdb6-7789-4d01-99ce-e30f8efd4b59",
+        "date": "2023-08-29T07:07:01.514Z",
+        "usage_duration": 88337,
+        "total_mileage": 73516,
+        "average_speed": 40619,
+        "created_at": "2023-08-28T23:17:17.525Z",
+        "updated_at": "2023-08-29T02:35:59.405Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "1d33666c-e2d6-4e91-8d39-37fecd143a18"
+      },
+      {
+        "id": "83aa1ced-56c4-44ba-8652-812446a67d85",
+        "date": "2023-08-29T01:12:14.790Z",
+        "usage_duration": 81412,
+        "total_mileage": 9591,
+        "average_speed": 35599,
+        "created_at": "2023-08-28T11:21:35.095Z",
+        "updated_at": "2023-08-28T23:32:26.653Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "cdae5523-7085-4463-a651-e97f36aaed06"
+      },
+      {
+        "id": "f44eeb66-2c59-4931-873f-f05342fea04e",
+        "date": "2023-08-28T22:54:28.480Z",
+        "usage_duration": 85455,
+        "total_mileage": 29921,
+        "average_speed": 82461,
+        "created_at": "2023-08-28T10:16:42.357Z",
+        "updated_at": "2023-08-28T07:57:39.392Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e76f56c9-d2ec-4d14-9657-83e556425f69"
+      },
+      {
+        "id": "d51fa1a6-928a-43e1-a94c-a2a80e7ca984",
+        "date": "2023-08-28T16:45:36.904Z",
+        "usage_duration": 19309,
+        "total_mileage": 51836,
+        "average_speed": 23025,
+        "created_at": "2023-08-28T15:42:12.918Z",
+        "updated_at": "2023-08-28T08:45:20.625Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "970c4772-dba6-43ea-9a0f-2d7108dee859"
+      },
+      {
+        "id": "69bb68de-9061-4495-963e-2e7cc978065b",
+        "date": "2023-08-29T04:45:44.149Z",
+        "usage_duration": 78179,
+        "total_mileage": 95425,
+        "average_speed": 6609,
+        "created_at": "2023-08-29T05:11:19.420Z",
+        "updated_at": "2023-08-29T03:31:24.913Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "fc53f27b-1ea2-44b8-9c73-a07e1377fee1"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "88f30b9a-f3f4-45cd-8155-73cdc7e2fae4",
+        "email": "Orion_Brown19@hotmail.com",
+        "firstName": "Emilia",
+        "lastName": "O'Reilly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1102.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b3bc8af1-176c-446b-ac08-ae986a518b4b",
+        "email": "Catherine.Zemlak@yahoo.com",
+        "firstName": "Osborne",
+        "lastName": "Lesch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77986366",
+        "tenantId": null
+      },
+      {
+        "reference": "b82fef3b-ef9c-4764-a205-0e2f91a55d0c",
+        "email": "Jerald.Blick@gmail.com",
+        "firstName": "Wilford",
+        "lastName": "Muller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1222.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c667c23d-7923-4474-a1ef-33300e010700",
+        "email": "Cierra30@gmail.com",
+        "firstName": "Grace",
+        "lastName": "Schultz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/900.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "55d6de6f-cebe-4200-884a-c96902d3d9ef",
+        "email": "Jalon.Morar-Green@yahoo.com",
+        "firstName": "Darryl",
+        "lastName": "Hyatt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15032019",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "d6f51d97-e8bd-40f9-8db3-919fb920e694",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 69773,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "created_at": "2023-08-28T21:07:00.920Z",
+        "updated_at": "2023-08-28T23:30:40.785Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bdc56832-807a-4b99-bf15-eab501db18c0",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 98837,
+        "color": "Blue",
+        "registration_number": "DEF456",
+        "created_at": "2023-08-28T08:56:45.614Z",
+        "updated_at": "2023-08-28T22:51:58.212Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07c99c91-cb9c-477d-ae9e-37c47211e653",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 96426,
+        "color": "Green",
+        "registration_number": "GHI789",
+        "created_at": "2023-08-29T02:32:07.380Z",
+        "updated_at": "2023-08-28T14:47:24.507Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff4d1c72-6a61-4a65-83af-f665de549361",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 87150,
+        "color": "Black",
+        "registration_number": "JKL012",
+        "created_at": "2023-08-29T03:26:54.242Z",
+        "updated_at": "2023-08-28T11:48:55.555Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe09d91f-22ac-4bd9-8031-ba105e9bbcf6",
+        "make": "BMW",
+        "model": "X5",
+        "year": 28634,
+        "color": "White",
+        "registration_number": "MNO345",
+        "created_at": "2023-08-28T11:15:51.456Z",
+        "updated_at": "2023-08-28T14:25:49.445Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "c614a4c4-044d-408e-aa44-20dc37215674",
+        "date": "2023-08-28T10:35:55.490Z",
+        "duration": 31328,
+        "mileage": 72057,
+        "created_at": "2023-08-29T02:36:14.232Z",
+        "updated_at": "2023-08-28T23:12:04.255Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d6f51d97-e8bd-40f9-8db3-919fb920e694"
+      },
+      {
+        "id": "08bf16d0-cf00-439a-92b1-d19ea53b5aa0",
+        "date": "2023-08-28T08:31:03.068Z",
+        "duration": 33840,
+        "mileage": 94804,
+        "created_at": "2023-08-29T02:53:05.284Z",
+        "updated_at": "2023-08-28T09:52:55.530Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d6f51d97-e8bd-40f9-8db3-919fb920e694"
+      },
+      {
+        "id": "ca8cc65b-0359-48e5-9339-2343c017cd7a",
+        "date": "2023-08-29T01:39:01.670Z",
+        "duration": 4697,
+        "mileage": 94523,
+        "created_at": "2023-08-28T20:22:33.021Z",
+        "updated_at": "2023-08-28T10:19:33.428Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d6f51d97-e8bd-40f9-8db3-919fb920e694"
+      },
+      {
+        "id": "1c9fa8c0-c710-4e9d-9cc1-52c526e4816d",
+        "date": "2023-08-29T04:57:55.959Z",
+        "duration": 86863,
+        "mileage": 59564,
+        "created_at": "2023-08-28T07:49:24.601Z",
+        "updated_at": "2023-08-28T14:12:51.130Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "ff4d1c72-6a61-4a65-83af-f665de549361"
+      },
+      {
+        "id": "58e636bc-409e-42a5-8715-c0057249280b",
+        "date": "2023-08-29T03:21:37.508Z",
+        "duration": 34255,
+        "mileage": 17047,
+        "created_at": "2023-08-28T16:55:20.150Z",
+        "updated_at": "2023-08-29T05:23:05.536Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d6f51d97-e8bd-40f9-8db3-919fb920e694"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "587c67df-cbca-48ee-8886-a5b1d067d403",
+        "start_time": "2023-08-28T09:25:55.464Z",
+        "end_time": "2023-08-29T00:02:00.254Z",
+        "created_at": "2023-08-29T03:54:01.378Z",
+        "updated_at": "2023-08-28T14:34:50.929Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d6f51d97-e8bd-40f9-8db3-919fb920e694"
+      },
+      {
+        "id": "4b426524-2a4f-4aa4-9ab1-129fc64315a0",
+        "start_time": "2023-08-28T15:42:05.381Z",
+        "end_time": "2023-08-28T18:58:05.516Z",
+        "created_at": "2023-08-28T10:08:22.973Z",
+        "updated_at": "2023-08-28T23:51:12.325Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "fe09d91f-22ac-4bd9-8031-ba105e9bbcf6"
+      },
+      {
+        "id": "f5752713-af60-43c2-b58c-0784543966c7",
+        "start_time": "2023-08-28T10:10:51.471Z",
+        "end_time": "2023-08-28T15:35:34.062Z",
+        "created_at": "2023-08-28T23:21:17.958Z",
+        "updated_at": "2023-08-28T21:28:34.973Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "bdc56832-807a-4b99-bf15-eab501db18c0"
+      },
+      {
+        "id": "3b788b3d-7310-45f7-b1a7-cef9e5d90c4b",
+        "start_time": "2023-08-29T02:37:32.823Z",
+        "end_time": "2023-08-28T16:15:21.255Z",
+        "created_at": "2023-08-28T10:24:57.682Z",
+        "updated_at": "2023-08-28T18:39:08.103Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "07c99c91-cb9c-477d-ae9e-37c47211e653"
+      },
+      {
+        "id": "3ec32ea1-bb2a-4131-8bd9-bdecc45ca5d6",
+        "start_time": "2023-08-28T22:58:41.635Z",
+        "end_time": "2023-08-28T21:09:21.972Z",
+        "created_at": "2023-08-28T18:07:48.112Z",
+        "updated_at": "2023-08-28T19:48:51.325Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "fe09d91f-22ac-4bd9-8031-ba105e9bbcf6"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "2fc5401f-1231-487a-8ca4-4f326f8d17a2",
+        "date": "2023-08-28T14:13:39.941Z",
+        "usage_duration": 63448,
+        "total_mileage": 47210,
+        "average_speed": 56381,
+        "created_at": "2023-08-28T20:15:18.989Z",
+        "updated_at": "2023-08-28T17:35:03.059Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "ff4d1c72-6a61-4a65-83af-f665de549361"
+      },
+      {
+        "id": "9fc472e4-0b82-4cc2-b139-043b3888a89f",
+        "date": "2023-08-28T13:07:25.892Z",
+        "usage_duration": 81616,
+        "total_mileage": 37391,
+        "average_speed": 49066,
+        "created_at": "2023-08-28T07:44:16.343Z",
+        "updated_at": "2023-08-28T23:41:06.864Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "fe09d91f-22ac-4bd9-8031-ba105e9bbcf6"
+      },
+      {
+        "id": "0fca7f75-9937-4df0-b5f4-93aa11995661",
+        "date": "2023-08-29T03:45:41.894Z",
+        "usage_duration": 55640,
+        "total_mileage": 22604,
+        "average_speed": 85631,
+        "created_at": "2023-08-28T22:05:38.930Z",
+        "updated_at": "2023-08-28T13:14:51.244Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d6f51d97-e8bd-40f9-8db3-919fb920e694"
+      },
+      {
+        "id": "ed46f467-31b0-4d9a-8757-434321899436",
+        "date": "2023-08-28T07:38:54.483Z",
+        "usage_duration": 99364,
+        "total_mileage": 65620,
+        "average_speed": 26994,
+        "created_at": "2023-08-29T02:53:09.809Z",
+        "updated_at": "2023-08-28T11:32:13.505Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d6f51d97-e8bd-40f9-8db3-919fb920e694"
+      },
+      {
+        "id": "f75c8618-157b-40fa-b944-887b37c3488f",
+        "date": "2023-08-29T04:04:00.889Z",
+        "usage_duration": 74164,
+        "total_mileage": 15435,
+        "average_speed": 75255,
+        "created_at": "2023-08-28T18:45:54.085Z",
+        "updated_at": "2023-08-28T12:37:45.535Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "ff4d1c72-6a61-4a65-83af-f665de549361"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8bb07473-41ab-478d-8390-a5cce952780d",
+        "email": "Herminio.Kuhlman83@yahoo.com",
+        "firstName": "Felipe",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/991.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "01469c32-8117-453c-801c-ce36760c4f49",
+        "email": "Ismael_Wyman@hotmail.com",
+        "firstName": "Cyril",
+        "lastName": "Durgan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71184011",
+        "tenantId": null
+      },
+      {
+        "reference": "13d44d2c-9a27-400a-9a9e-dcde746b9347",
+        "email": "Vernice_Boehm78@gmail.com",
+        "firstName": "Ali",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/223.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5a6d0c1e-deca-4c76-8744-5dac9e1a2b33",
+        "email": "Dena.Runolfsson@hotmail.com",
+        "firstName": "Moshe",
+        "lastName": "Rogahn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33011858",
+        "tenantId": null
+      },
+      {
+        "reference": "d5b40b66-3220-493d-9916-49c0b277d931",
+        "email": "Jacklyn47@gmail.com",
+        "firstName": "Fausto",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1218.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "067ac235-6b06-45cd-9b7a-3cb2366936fa",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 67835,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "created_at": "2023-08-28T23:52:39.478Z",
+        "updated_at": "2023-08-29T02:13:16.409Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fce7c306-6b5c-4bb2-b485-4fec81c07bbd",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 2787,
+        "color": "Blue",
+        "registration_number": "DEF456",
+        "created_at": "2023-08-28T08:33:10.757Z",
+        "updated_at": "2023-08-28T15:03:01.683Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "463bd438-b32f-4b07-bd34-02c7a783c688",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 84499,
+        "color": "Green",
+        "registration_number": "GHI789",
+        "created_at": "2023-08-29T03:00:59.538Z",
+        "updated_at": "2023-08-28T08:30:51.954Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca786576-7c5e-41cd-b30d-a15bafb46754",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 74896,
+        "color": "Black",
+        "registration_number": "JKL012",
+        "created_at": "2023-08-28T10:36:26.367Z",
+        "updated_at": "2023-08-29T02:03:12.526Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "859a3cbc-4a02-42f1-bed3-21bde4fb41d5",
+        "make": "BMW",
+        "model": "X5",
+        "year": 45385,
+        "color": "White",
+        "registration_number": "MNO345",
+        "created_at": "2023-08-28T21:31:22.892Z",
+        "updated_at": "2023-08-28T08:30:53.297Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "8353d339-e72d-480a-8dae-6ed169913913",
+        "date": "2023-08-28T15:40:10.085Z",
+        "duration": 99616,
+        "mileage": 91348,
+        "created_at": "2023-08-29T04:43:59.232Z",
+        "updated_at": "2023-08-28T09:43:51.726Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "ca786576-7c5e-41cd-b30d-a15bafb46754"
+      },
+      {
+        "id": "cd15d5b3-1f5c-4d17-9401-636d0f2b75d1",
+        "date": "2023-08-29T02:37:23.141Z",
+        "duration": 90539,
+        "mileage": 94747,
+        "created_at": "2023-08-29T05:48:22.124Z",
+        "updated_at": "2023-08-28T22:20:01.017Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "067ac235-6b06-45cd-9b7a-3cb2366936fa"
+      },
+      {
+        "id": "f1d19bcd-3732-410c-b586-918e6eb98d90",
+        "date": "2023-08-28T20:43:45.240Z",
+        "duration": 55051,
+        "mileage": 77633,
+        "created_at": "2023-08-28T09:52:51.517Z",
+        "updated_at": "2023-08-28T14:47:39.531Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "463bd438-b32f-4b07-bd34-02c7a783c688"
+      },
+      {
+        "id": "04bccbf2-d3d1-4023-9b21-80c5e32a8e5f",
+        "date": "2023-08-28T18:00:05.169Z",
+        "duration": 48787,
+        "mileage": 38164,
+        "created_at": "2023-08-28T20:13:33.263Z",
+        "updated_at": "2023-08-28T14:08:45.451Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "859a3cbc-4a02-42f1-bed3-21bde4fb41d5"
+      },
+      {
+        "id": "271dad2f-d235-464d-ae13-90f4aa6d86b2",
+        "date": "2023-08-29T07:08:13.852Z",
+        "duration": 26404,
+        "mileage": 38845,
+        "created_at": "2023-08-28T13:23:22.956Z",
+        "updated_at": "2023-08-28T23:09:11.432Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "ca786576-7c5e-41cd-b30d-a15bafb46754"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "2f2474f1-62ba-419c-8e81-741d59c5be24",
+        "start_time": "2023-08-28T22:21:11.667Z",
+        "end_time": "2023-08-28T21:34:46.180Z",
+        "created_at": "2023-08-28T22:44:42.497Z",
+        "updated_at": "2023-08-28T18:05:11.272Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "ca786576-7c5e-41cd-b30d-a15bafb46754"
+      },
+      {
+        "id": "9cd7638c-35a5-40ff-9526-c8ff71c1cbad",
+        "start_time": "2023-08-28T18:11:32.984Z",
+        "end_time": "2023-08-28T18:00:56.876Z",
+        "created_at": "2023-08-28T18:13:20.328Z",
+        "updated_at": "2023-08-28T20:01:28.520Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "067ac235-6b06-45cd-9b7a-3cb2366936fa"
+      },
+      {
+        "id": "cbc142b9-4d52-430a-b1b7-ff469306ebc8",
+        "start_time": "2023-08-28T09:38:32.804Z",
+        "end_time": "2023-08-28T21:48:21.315Z",
+        "created_at": "2023-08-28T15:23:13.327Z",
+        "updated_at": "2023-08-29T03:49:27.487Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "859a3cbc-4a02-42f1-bed3-21bde4fb41d5"
+      },
+      {
+        "id": "2fb76c94-37c6-46a4-a6a2-5bad7459d32a",
+        "start_time": "2023-08-28T09:31:23.698Z",
+        "end_time": "2023-08-28T18:31:23.425Z",
+        "created_at": "2023-08-29T06:29:28.454Z",
+        "updated_at": "2023-08-29T02:50:10.641Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "ca786576-7c5e-41cd-b30d-a15bafb46754"
+      },
+      {
+        "id": "4e1e37f1-e571-43e6-a0a5-3f6c4d6ddd87",
+        "start_time": "2023-08-28T23:23:40.561Z",
+        "end_time": "2023-08-28T08:55:24.948Z",
+        "created_at": "2023-08-28T18:10:44.485Z",
+        "updated_at": "2023-08-28T17:09:50.325Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "fce7c306-6b5c-4bb2-b485-4fec81c07bbd"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "5bd1dfd0-7a5b-4d67-9f58-41492837a500",
+        "date": "2023-08-29T02:36:35.546Z",
+        "usage_duration": 43783,
+        "total_mileage": 49810,
+        "average_speed": 92997,
+        "created_at": "2023-08-29T04:05:53.791Z",
+        "updated_at": "2023-08-28T10:06:07.491Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "ca786576-7c5e-41cd-b30d-a15bafb46754"
+      },
+      {
+        "id": "7071c7fe-70c7-4518-870d-873db9fbf657",
+        "date": "2023-08-28T09:29:16.315Z",
+        "usage_duration": 69382,
+        "total_mileage": 96929,
+        "average_speed": 48111,
+        "created_at": "2023-08-29T00:30:35.712Z",
+        "updated_at": "2023-08-28T16:00:43.461Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "ca786576-7c5e-41cd-b30d-a15bafb46754"
+      },
+      {
+        "id": "bcb6e07b-6201-49c9-a865-b22790c2b393",
+        "date": "2023-08-29T00:34:08.019Z",
+        "usage_duration": 85084,
+        "total_mileage": 57803,
+        "average_speed": 5450,
+        "created_at": "2023-08-28T12:19:08.836Z",
+        "updated_at": "2023-08-28T16:35:08.999Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "fce7c306-6b5c-4bb2-b485-4fec81c07bbd"
+      },
+      {
+        "id": "99fea2c7-475b-462f-892a-067c34d58b18",
+        "date": "2023-08-28T14:36:08.814Z",
+        "usage_duration": 30705,
+        "total_mileage": 6757,
+        "average_speed": 49106,
+        "created_at": "2023-08-28T10:30:32.382Z",
+        "updated_at": "2023-08-28T13:51:28.134Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "859a3cbc-4a02-42f1-bed3-21bde4fb41d5"
+      },
+      {
+        "id": "f29e95f9-b295-4224-8055-4164dfbe87b0",
+        "date": "2023-08-29T03:02:20.409Z",
+        "usage_duration": 34926,
+        "total_mileage": 12257,
+        "average_speed": 62053,
+        "created_at": "2023-08-28T08:11:43.193Z",
+        "updated_at": "2023-08-29T06:40:52.829Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "fce7c306-6b5c-4bb2-b485-4fec81c07bbd"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "03f5777d-c53e-4ab5-baeb-f8601e6e4ae7",
+        "email": "Dianna90@gmail.com",
+        "firstName": "Enid",
+        "lastName": "Wisozk",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/279.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "179fae6a-659a-4bbf-97eb-3d98776d643f",
+        "email": "Quinten_McClure@hotmail.com",
+        "firstName": "Jalyn",
+        "lastName": "Schumm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/320.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4f323682-30a9-493b-bd78-4895ceaeadec",
+        "email": "Erik.Gottlieb22@gmail.com",
+        "firstName": "Erna",
+        "lastName": "Green-Barrows",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9478027",
+        "tenantId": null
+      },
+      {
+        "reference": "8c125ff7-3a64-4c95-991f-d7b54f0baf0d",
+        "email": "Christop_Murazik59@hotmail.com",
+        "firstName": "Turner",
+        "lastName": "O'Reilly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/892.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f65964c2-5220-4f07-b493-6409d7b96be5",
+        "email": "Joana_Johns@hotmail.com",
+        "firstName": "Jason",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/730.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "f9b9ee1d-a1f5-4f71-bf85-5dfcbafb2211",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 3937,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "created_at": "2023-08-28T15:18:30.668Z",
+        "updated_at": "2023-08-29T01:06:22.377Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ea2d094-a5e1-47df-8ec4-9359f2703133",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 52763,
+        "color": "Blue",
+        "registration_number": "DEF456",
+        "created_at": "2023-08-29T01:46:26.040Z",
+        "updated_at": "2023-08-28T18:20:02.104Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4dd6d5be-0e98-4b46-9548-4de8aff7583d",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 36678,
+        "color": "Green",
+        "registration_number": "GHI789",
+        "created_at": "2023-08-29T02:54:58.626Z",
+        "updated_at": "2023-08-29T01:14:29.509Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ac27ea0-5a04-410d-acf2-0b2fa26954da",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 89268,
+        "color": "Black",
+        "registration_number": "JKL012",
+        "created_at": "2023-08-28T12:44:16.782Z",
+        "updated_at": "2023-08-29T07:02:51.993Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "681f0840-b92a-4df4-845f-8013636c60f9",
+        "make": "BMW",
+        "model": "X5",
+        "year": 92995,
+        "color": "White",
+        "registration_number": "MNO345",
+        "created_at": "2023-08-28T19:57:24.343Z",
+        "updated_at": "2023-08-29T04:56:58.698Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "9049ca8f-080d-4280-b18b-2c437c22f9cc",
+        "date": "2023-08-29T06:32:27.362Z",
+        "duration": 34689,
+        "mileage": 4940,
+        "created_at": "2023-08-28T21:47:51.680Z",
+        "updated_at": "2023-08-28T18:17:14.116Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "f9b9ee1d-a1f5-4f71-bf85-5dfcbafb2211"
+      },
+      {
+        "id": "853e7825-d475-42f1-8db1-c468dbdfe8d7",
+        "date": "2023-08-29T03:46:43.071Z",
+        "duration": 50539,
+        "mileage": 55283,
+        "created_at": "2023-08-28T14:34:41.731Z",
+        "updated_at": "2023-08-28T15:38:07.444Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "f9b9ee1d-a1f5-4f71-bf85-5dfcbafb2211"
+      },
+      {
+        "id": "9ab1688a-c49e-45a8-ba6c-cb02d6ec44c8",
+        "date": "2023-08-28T21:34:54.594Z",
+        "duration": 42205,
+        "mileage": 18401,
+        "created_at": "2023-08-29T01:26:07.782Z",
+        "updated_at": "2023-08-29T02:08:46.694Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "2ea2d094-a5e1-47df-8ec4-9359f2703133"
+      },
+      {
+        "id": "09047e21-2b85-4993-807a-17ee63cb53a2",
+        "date": "2023-08-29T04:33:32.845Z",
+        "duration": 37315,
+        "mileage": 44317,
+        "created_at": "2023-08-28T21:51:26.810Z",
+        "updated_at": "2023-08-28T07:49:08.519Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "2ea2d094-a5e1-47df-8ec4-9359f2703133"
+      },
+      {
+        "id": "bf303c27-e4a8-44a5-909e-5a9b955051ce",
+        "date": "2023-08-29T04:54:27.304Z",
+        "duration": 29404,
+        "mileage": 23102,
+        "created_at": "2023-08-28T21:34:50.079Z",
+        "updated_at": "2023-08-28T21:57:37.885Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "f9b9ee1d-a1f5-4f71-bf85-5dfcbafb2211"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "b592dcc4-aea0-4645-ba22-521d7410941e",
+        "start_time": "2023-08-28T23:44:45.377Z",
+        "end_time": "2023-08-28T23:52:14.772Z",
+        "created_at": "2023-08-28T11:33:46.571Z",
+        "updated_at": "2023-08-28T16:13:41.914Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "681f0840-b92a-4df4-845f-8013636c60f9"
+      },
+      {
+        "id": "476b46ef-ed09-4d60-8731-fff079ce0671",
+        "start_time": "2023-08-28T23:54:45.019Z",
+        "end_time": "2023-08-29T04:15:00.877Z",
+        "created_at": "2023-08-28T08:27:22.983Z",
+        "updated_at": "2023-08-28T13:44:57.004Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "f9b9ee1d-a1f5-4f71-bf85-5dfcbafb2211"
+      },
+      {
+        "id": "fd15e31b-19e4-4cf0-943c-06691659ebde",
+        "start_time": "2023-08-28T16:18:03.221Z",
+        "end_time": "2023-08-29T02:29:27.918Z",
+        "created_at": "2023-08-28T07:49:02.040Z",
+        "updated_at": "2023-08-28T16:06:12.722Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "681f0840-b92a-4df4-845f-8013636c60f9"
+      },
+      {
+        "id": "325326a3-fb25-4aa7-8781-e91880ac45b8",
+        "start_time": "2023-08-29T01:25:27.038Z",
+        "end_time": "2023-08-28T17:34:48.534Z",
+        "created_at": "2023-08-28T21:32:38.478Z",
+        "updated_at": "2023-08-29T06:02:17.765Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5ac27ea0-5a04-410d-acf2-0b2fa26954da"
+      },
+      {
+        "id": "ca0b8d2c-da82-4238-9810-ad3a8428bea2",
+        "start_time": "2023-08-28T09:43:11.528Z",
+        "end_time": "2023-08-29T00:40:25.378Z",
+        "created_at": "2023-08-29T06:52:05.837Z",
+        "updated_at": "2023-08-29T01:35:42.288Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "4dd6d5be-0e98-4b46-9548-4de8aff7583d"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "cd1a38ee-aec0-46cb-bcb3-1b1ebc809ee2",
+        "date": "2023-08-29T01:17:14.751Z",
+        "usage_duration": 95023,
+        "total_mileage": 3653,
+        "average_speed": 93524,
+        "created_at": "2023-08-28T15:27:10.147Z",
+        "updated_at": "2023-08-29T01:04:36.847Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5ac27ea0-5a04-410d-acf2-0b2fa26954da"
+      },
+      {
+        "id": "e53e9a2b-e0c0-4502-b68a-9c396b7f8688",
+        "date": "2023-08-28T14:55:59.131Z",
+        "usage_duration": 13044,
+        "total_mileage": 6303,
+        "average_speed": 1703,
+        "created_at": "2023-08-28T10:45:05.632Z",
+        "updated_at": "2023-08-28T12:04:23.657Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "681f0840-b92a-4df4-845f-8013636c60f9"
+      },
+      {
+        "id": "fce9098f-6594-4c60-bea3-65b9170d302e",
+        "date": "2023-08-29T03:29:08.223Z",
+        "usage_duration": 93354,
+        "total_mileage": 48222,
+        "average_speed": 9004,
+        "created_at": "2023-08-29T01:45:22.674Z",
+        "updated_at": "2023-08-28T13:53:00.074Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5ac27ea0-5a04-410d-acf2-0b2fa26954da"
+      },
+      {
+        "id": "fb12decb-9aec-4d72-bbcc-f471f623edb0",
+        "date": "2023-08-29T03:45:58.274Z",
+        "usage_duration": 48081,
+        "total_mileage": 66179,
+        "average_speed": 37581,
+        "created_at": "2023-08-28T09:24:12.368Z",
+        "updated_at": "2023-08-28T21:02:56.228Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "681f0840-b92a-4df4-845f-8013636c60f9"
+      },
+      {
+        "id": "27565077-4281-44a0-a319-1ac1a52891e5",
+        "date": "2023-08-28T11:39:32.256Z",
+        "usage_duration": 73750,
+        "total_mileage": 38983,
+        "average_speed": 86954,
+        "created_at": "2023-08-28T21:05:00.546Z",
+        "updated_at": "2023-08-28T07:18:05.202Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "681f0840-b92a-4df4-845f-8013636c60f9"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "dc60db4e-a512-4f5b-9cc1-f01ce80d0763",
+        "email": "Lyric_Deckow72@gmail.com",
+        "firstName": "Rick",
+        "lastName": "Reilly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3542173",
+        "tenantId": null
+      },
+      {
+        "reference": "8ef4bbc1-5c32-4e6a-9bb6-1b79f7083890",
+        "email": "Elvie_Schroeder60@hotmail.com",
+        "firstName": "Lewis",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12945055",
+        "tenantId": null
+      },
+      {
+        "reference": "f56166d1-cbbd-4d57-ab8c-ba4dcdb1d4fe",
+        "email": "Myra_Jerde@yahoo.com",
+        "firstName": "Jamal",
+        "lastName": "Durgan-Baumbach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30783781",
+        "tenantId": null
+      },
+      {
+        "reference": "d4e79ebe-3afb-4f5a-9675-f6fe32ff28f1",
+        "email": "Jamison_DuBuque30@gmail.com",
+        "firstName": "Arlene",
+        "lastName": "Ratke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/306375",
+        "tenantId": null
+      },
+      {
+        "reference": "bb93d642-fa81-48fe-b5f6-aafbde6f0eff",
+        "email": "Amara_Huels21@hotmail.com",
+        "firstName": "Waino",
+        "lastName": "Bode-Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45816023",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "b5c50e04-5fcc-44ff-a086-333a8c7d26c3",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 3902,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "created_at": "2023-08-29T00:51:31.019Z",
+        "updated_at": "2023-08-28T15:10:20.923Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b1f239e-271f-45f5-9bb3-6a37fbfa9f24",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 5054,
+        "color": "Blue",
+        "registration_number": "DEF456",
+        "created_at": "2023-08-28T12:29:51.158Z",
+        "updated_at": "2023-08-28T22:19:58.751Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1f57220-1971-4001-ba57-1d503b4a9ce3",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 86385,
+        "color": "Black",
+        "registration_number": "GHI789",
+        "created_at": "2023-08-28T18:12:57.723Z",
+        "updated_at": "2023-08-29T00:58:16.928Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e12e10b8-bb10-4260-a48e-28ebb33ea2ab",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 64419,
+        "color": "White",
+        "registration_number": "JKL012",
+        "created_at": "2023-08-28T18:56:16.079Z",
+        "updated_at": "2023-08-29T03:25:46.484Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71309c51-63fe-434f-8cf1-10098ee82688",
+        "make": "BMW",
+        "model": "X5",
+        "year": 29290,
+        "color": "Silver",
+        "registration_number": "MNO345",
+        "created_at": "2023-08-28T20:35:54.128Z",
+        "updated_at": "2023-08-28T12:43:55.263Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "1ab830b8-7195-4448-8474-700b7dcf952f",
+        "date": "2023-08-28T10:53:22.449Z",
+        "duration": 66264,
+        "mileage": 20886,
+        "created_at": "2023-08-29T06:00:54.105Z",
+        "updated_at": "2023-08-28T11:30:49.758Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e12e10b8-bb10-4260-a48e-28ebb33ea2ab"
+      },
+      {
+        "id": "627253d8-6f51-4206-b8f1-ca0691e5cc9c",
+        "date": "2023-08-28T12:35:18.016Z",
+        "duration": 17689,
+        "mileage": 15070,
+        "created_at": "2023-08-29T07:05:11.698Z",
+        "updated_at": "2023-08-28T13:44:05.907Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "7b1f239e-271f-45f5-9bb3-6a37fbfa9f24"
+      },
+      {
+        "id": "dcda0b3d-a4d7-49fa-a022-4109313e2d3b",
+        "date": "2023-08-29T03:38:39.616Z",
+        "duration": 43139,
+        "mileage": 63706,
+        "created_at": "2023-08-29T04:51:56.704Z",
+        "updated_at": "2023-08-29T02:08:03.225Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "71309c51-63fe-434f-8cf1-10098ee82688"
+      },
+      {
+        "id": "de5635fc-1c60-4684-bc8e-0d08799bfe5d",
+        "date": "2023-08-28T19:31:23.638Z",
+        "duration": 1648,
+        "mileage": 88344,
+        "created_at": "2023-08-28T10:03:31.373Z",
+        "updated_at": "2023-08-29T05:29:25.659Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e12e10b8-bb10-4260-a48e-28ebb33ea2ab"
+      },
+      {
+        "id": "0881c5b8-af49-4254-998c-dadb305dad6d",
+        "date": "2023-08-28T22:53:17.894Z",
+        "duration": 52727,
+        "mileage": 26221,
+        "created_at": "2023-08-28T08:44:03.450Z",
+        "updated_at": "2023-08-29T05:31:02.534Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "b5c50e04-5fcc-44ff-a086-333a8c7d26c3"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "9bb65c74-9163-47f9-a1a3-6ea4bbbb2a34",
+        "start_time": "2023-08-28T23:27:28.860Z",
+        "end_time": "2023-08-28T13:23:29.122Z",
+        "created_at": "2023-08-29T01:22:43.230Z",
+        "updated_at": "2023-08-28T07:40:14.926Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e1f57220-1971-4001-ba57-1d503b4a9ce3"
+      },
+      {
+        "id": "cfaf314b-0bbf-4ac0-9524-b64275d6ffdf",
+        "start_time": "2023-08-28T07:22:50.963Z",
+        "end_time": "2023-08-28T19:03:27.844Z",
+        "created_at": "2023-08-28T23:50:55.121Z",
+        "updated_at": "2023-08-28T22:01:23.902Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e1f57220-1971-4001-ba57-1d503b4a9ce3"
+      },
+      {
+        "id": "360f0e7a-4bee-473f-8a6e-f211a2e261a8",
+        "start_time": "2023-08-28T09:51:09.293Z",
+        "end_time": "2023-08-28T22:00:58.129Z",
+        "created_at": "2023-08-28T09:37:52.936Z",
+        "updated_at": "2023-08-28T16:44:03.387Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e1f57220-1971-4001-ba57-1d503b4a9ce3"
+      },
+      {
+        "id": "468b8fe1-e8f2-428d-9d20-0cfef14ea93d",
+        "start_time": "2023-08-28T07:40:54.466Z",
+        "end_time": "2023-08-29T03:22:07.919Z",
+        "created_at": "2023-08-29T06:07:09.731Z",
+        "updated_at": "2023-08-28T22:05:02.003Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e12e10b8-bb10-4260-a48e-28ebb33ea2ab"
+      },
+      {
+        "id": "80e40636-bc67-47e0-9f66-031ef8d473e0",
+        "start_time": "2023-08-29T02:40:02.763Z",
+        "end_time": "2023-08-29T00:28:11.103Z",
+        "created_at": "2023-08-29T00:35:36.476Z",
+        "updated_at": "2023-08-29T04:12:14.573Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "7b1f239e-271f-45f5-9bb3-6a37fbfa9f24"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "06233e60-562f-4134-9091-15b7f8232c87",
+        "date": "2023-08-28T18:04:18.669Z",
+        "usage_duration": 86246,
+        "total_mileage": 7170,
+        "average_speed": 32876,
+        "created_at": "2023-08-28T09:55:37.071Z",
+        "updated_at": "2023-08-29T06:21:56.763Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "b5c50e04-5fcc-44ff-a086-333a8c7d26c3"
+      },
+      {
+        "id": "acf3425b-4ff0-43c6-8c74-41a8511315bc",
+        "date": "2023-08-28T23:19:49.127Z",
+        "usage_duration": 58333,
+        "total_mileage": 30922,
+        "average_speed": 31765,
+        "created_at": "2023-08-28T21:25:19.194Z",
+        "updated_at": "2023-08-29T03:26:04.305Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "71309c51-63fe-434f-8cf1-10098ee82688"
+      },
+      {
+        "id": "5bea1849-7de3-460d-ad1b-1f5ff40ef38b",
+        "date": "2023-08-29T05:30:21.850Z",
+        "usage_duration": 27975,
+        "total_mileage": 61300,
+        "average_speed": 65107,
+        "created_at": "2023-08-28T20:52:54.155Z",
+        "updated_at": "2023-08-28T20:26:17.149Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "71309c51-63fe-434f-8cf1-10098ee82688"
+      },
+      {
+        "id": "840eebd0-99ff-471d-ac99-2db9aa539f97",
+        "date": "2023-08-28T21:35:29.033Z",
+        "usage_duration": 34933,
+        "total_mileage": 12074,
+        "average_speed": 79390,
+        "created_at": "2023-08-28T11:44:30.118Z",
+        "updated_at": "2023-08-28T11:37:55.700Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "7b1f239e-271f-45f5-9bb3-6a37fbfa9f24"
+      },
+      {
+        "id": "fe93fa95-284d-4d88-a85a-73407f64d63e",
+        "date": "2023-08-29T03:50:31.847Z",
+        "usage_duration": 81327,
+        "total_mileage": 12612,
+        "average_speed": 50467,
+        "created_at": "2023-08-28T21:32:16.862Z",
+        "updated_at": "2023-08-28T13:22:16.256Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "b5c50e04-5fcc-44ff-a086-333a8c7d26c3"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "aefd1dae-ae6a-4265-a05b-4fee96c5c2f2",
+        "email": "Elda12@yahoo.com",
+        "firstName": "Lorine",
+        "lastName": "Bogisich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/104.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "db8bc5fe-39c9-412c-8a7d-3142c3e8586a",
+        "email": "Fausto95@gmail.com",
+        "firstName": "Isidro",
+        "lastName": "Morissette",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/521.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "45621177-20d1-44f4-a2c8-852ab59593c7",
+        "email": "Carson.Corwin@yahoo.com",
+        "firstName": "Malachi",
+        "lastName": "Walsh",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54859021",
+        "tenantId": null
+      },
+      {
+        "reference": "0ec7cd6c-767e-4d76-974f-8798ba0bd089",
+        "email": "Sid_Durgan52@gmail.com",
+        "firstName": "Marian",
+        "lastName": "O'Reilly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11038376",
+        "tenantId": null
+      },
+      {
+        "reference": "54c1576e-fee3-4d66-b851-6f6e02e13901",
+        "email": "Rashad27@yahoo.com",
+        "firstName": "Sharon",
+        "lastName": "Funk",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44667501",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "296a537a-276d-4a27-a532-6df5c33523fc",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 59132,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "created_at": "2023-08-28T10:03:56.897Z",
+        "updated_at": "2023-08-28T21:41:30.100Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24203cd7-17a4-4f0c-bb3d-54e375a0a04e",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 19542,
+        "color": "Blue",
+        "registration_number": "DEF456",
+        "created_at": "2023-08-28T21:51:39.451Z",
+        "updated_at": "2023-08-28T19:28:35.597Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db121713-9173-45b4-86a2-5ab261975da2",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 10034,
+        "color": "Green",
+        "registration_number": "GHI789",
+        "created_at": "2023-08-28T22:56:46.086Z",
+        "updated_at": "2023-08-29T06:21:49.833Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4fcb241a-0cfa-4703-8d4d-9c6a06810da5",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 73951,
+        "color": "Black",
+        "registration_number": "JKL012",
+        "created_at": "2023-08-28T12:44:58.733Z",
+        "updated_at": "2023-08-28T10:40:30.982Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f1ccad0e-7e82-4ee1-8ab7-4890c5510f61",
+        "make": "BMW",
+        "model": "X5",
+        "year": 1835,
+        "color": "White",
+        "registration_number": "MNO345",
+        "created_at": "2023-08-28T19:32:58.830Z",
+        "updated_at": "2023-08-29T03:47:01.900Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "a046dd15-6922-485c-acd8-876ff06d0074",
+        "date": "2023-08-29T05:04:21.264Z",
+        "duration": 95542,
+        "mileage": 82531,
+        "created_at": "2023-08-28T23:24:15.224Z",
+        "updated_at": "2023-08-29T04:31:33.553Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "db121713-9173-45b4-86a2-5ab261975da2"
+      },
+      {
+        "id": "4f9b83bc-1f9d-4db2-8bec-f877525cc545",
+        "date": "2023-08-28T21:17:35.218Z",
+        "duration": 20677,
+        "mileage": 90417,
+        "created_at": "2023-08-28T09:52:50.822Z",
+        "updated_at": "2023-08-28T20:33:32.910Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "db121713-9173-45b4-86a2-5ab261975da2"
+      },
+      {
+        "id": "660924c3-f676-4100-87e2-067d1f066164",
+        "date": "2023-08-28T08:36:41.505Z",
+        "duration": 42340,
+        "mileage": 27796,
+        "created_at": "2023-08-28T22:10:54.074Z",
+        "updated_at": "2023-08-28T10:28:08.034Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "4fcb241a-0cfa-4703-8d4d-9c6a06810da5"
+      },
+      {
+        "id": "a77b3169-5fd5-46e5-bbf9-1fab229e12e5",
+        "date": "2023-08-29T06:00:01.303Z",
+        "duration": 93424,
+        "mileage": 1017,
+        "created_at": "2023-08-29T06:15:23.124Z",
+        "updated_at": "2023-08-29T05:04:50.199Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "f1ccad0e-7e82-4ee1-8ab7-4890c5510f61"
+      },
+      {
+        "id": "e97c6534-cfb4-449e-a319-3b958642acc1",
+        "date": "2023-08-28T10:43:12.836Z",
+        "duration": 37382,
+        "mileage": 3204,
+        "created_at": "2023-08-28T13:34:57.840Z",
+        "updated_at": "2023-08-28T21:41:55.916Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "4fcb241a-0cfa-4703-8d4d-9c6a06810da5"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "24650187-991c-470c-90aa-3a0719f37f67",
+        "start_time": "2023-08-28T19:10:08.795Z",
+        "end_time": "2023-08-28T08:51:48.124Z",
+        "created_at": "2023-08-28T09:56:39.524Z",
+        "updated_at": "2023-08-28T23:23:34.019Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "296a537a-276d-4a27-a532-6df5c33523fc"
+      },
+      {
+        "id": "b3000352-8c9c-44d2-9c9a-7d9327f90300",
+        "start_time": "2023-08-29T00:43:32.551Z",
+        "end_time": "2023-08-28T16:24:34.690Z",
+        "created_at": "2023-08-28T09:54:43.413Z",
+        "updated_at": "2023-08-28T20:30:11.064Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "db121713-9173-45b4-86a2-5ab261975da2"
+      },
+      {
+        "id": "3f455e47-3b8d-4e48-86a5-21c5b5ad8cd0",
+        "start_time": "2023-08-28T13:13:27.090Z",
+        "end_time": "2023-08-28T10:43:44.820Z",
+        "created_at": "2023-08-29T04:30:53.239Z",
+        "updated_at": "2023-08-29T01:14:08.856Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "24203cd7-17a4-4f0c-bb3d-54e375a0a04e"
+      },
+      {
+        "id": "86028277-c1c2-49c5-9b52-5352b4d336dc",
+        "start_time": "2023-08-29T06:57:30.760Z",
+        "end_time": "2023-08-28T19:46:26.362Z",
+        "created_at": "2023-08-29T05:42:33.455Z",
+        "updated_at": "2023-08-29T05:30:28.144Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "4fcb241a-0cfa-4703-8d4d-9c6a06810da5"
+      },
+      {
+        "id": "75192f18-8109-48b0-9e5c-d7c5f7445d75",
+        "start_time": "2023-08-29T05:54:46.209Z",
+        "end_time": "2023-08-29T03:02:23.108Z",
+        "created_at": "2023-08-28T23:20:46.843Z",
+        "updated_at": "2023-08-29T03:32:32.266Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "24203cd7-17a4-4f0c-bb3d-54e375a0a04e"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "5bcafb98-41bf-4ad0-966b-0e7f395542ba",
+        "date": "2023-08-28T13:44:50.817Z",
+        "usage_duration": 61256,
+        "total_mileage": 2001,
+        "average_speed": 42260,
+        "created_at": "2023-08-29T01:44:52.638Z",
+        "updated_at": "2023-08-28T17:24:37.857Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "296a537a-276d-4a27-a532-6df5c33523fc"
+      },
+      {
+        "id": "99178579-72e6-4bb8-9fe0-0e91b2265d29",
+        "date": "2023-08-28T12:21:20.300Z",
+        "usage_duration": 11268,
+        "total_mileage": 68283,
+        "average_speed": 3403,
+        "created_at": "2023-08-29T02:43:59.010Z",
+        "updated_at": "2023-08-28T08:12:39.186Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "24203cd7-17a4-4f0c-bb3d-54e375a0a04e"
+      },
+      {
+        "id": "2abf3df4-ca7b-48cd-9cdf-00df89abbe5b",
+        "date": "2023-08-28T08:15:25.186Z",
+        "usage_duration": 75197,
+        "total_mileage": 56850,
+        "average_speed": 18584,
+        "created_at": "2023-08-29T04:53:26.698Z",
+        "updated_at": "2023-08-29T02:15:35.054Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "f1ccad0e-7e82-4ee1-8ab7-4890c5510f61"
+      },
+      {
+        "id": "53bd42f3-4c3e-4cf6-a3d8-aecaf0447dfd",
+        "date": "2023-08-28T08:54:09.094Z",
+        "usage_duration": 93390,
+        "total_mileage": 2146,
+        "average_speed": 97125,
+        "created_at": "2023-08-28T11:54:01.712Z",
+        "updated_at": "2023-08-28T15:39:33.665Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "24203cd7-17a4-4f0c-bb3d-54e375a0a04e"
+      },
+      {
+        "id": "9d0a0be9-aefb-4897-b471-9b0878955c94",
+        "date": "2023-08-29T04:54:20.331Z",
+        "usage_duration": 97929,
+        "total_mileage": 97390,
+        "average_speed": 61506,
+        "created_at": "2023-08-28T07:41:42.378Z",
+        "updated_at": "2023-08-28T10:10:13.512Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "296a537a-276d-4a27-a532-6df5c33523fc"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5f00dd2e-5dd7-4473-be7b-e7947d4862b9",
+        "email": "Devin_Legros@gmail.com",
+        "firstName": "Jaiden",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77664337",
+        "tenantId": null
+      },
+      {
+        "reference": "7798b514-948d-4fbe-beae-771f11ee4d32",
+        "email": "Angeline.Grant@gmail.com",
+        "firstName": "Frederique",
+        "lastName": "Emard",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1095.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "96ce2062-a9c6-4203-a933-603ea1363a5d",
+        "email": "Alisha.Bayer38@hotmail.com",
+        "firstName": "Thomas",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76811759",
+        "tenantId": null
+      },
+      {
+        "reference": "42d34ccc-1891-47be-83bb-6066cba781b4",
+        "email": "Clinton54@hotmail.com",
+        "firstName": "Haylie",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5416719",
+        "tenantId": null
+      },
+      {
+        "reference": "b426d26b-0696-41e7-a53c-8513c7db8f8f",
+        "email": "Jose.Armstrong@hotmail.com",
+        "firstName": "Stevie",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/996.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "f8bf3327-4012-4d23-b25a-34ffcae0d19c",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 11709,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "created_at": "2023-08-29T03:36:01.105Z",
+        "updated_at": "2023-08-29T07:05:35.278Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f861b7b2-a9e2-40c8-bf48-473741066753",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 21930,
+        "color": "Blue",
+        "registration_number": "DEF456",
+        "created_at": "2023-08-28T14:22:42.968Z",
+        "updated_at": "2023-08-29T05:41:53.644Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26c01bc3-9d38-4865-8151-2217419930ea",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 79025,
+        "color": "Green",
+        "registration_number": "GHI789",
+        "created_at": "2023-08-28T17:59:28.256Z",
+        "updated_at": "2023-08-28T12:38:01.870Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4980b3f9-05e8-4263-95b6-e6bd0970b5ca",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 10764,
+        "color": "Black",
+        "registration_number": "JKL012",
+        "created_at": "2023-08-28T10:25:13.271Z",
+        "updated_at": "2023-08-28T09:21:59.096Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a51445c-77e0-4d54-90a0-04aa0a320809",
+        "make": "BMW",
+        "model": "X5",
+        "year": 68973,
+        "color": "White",
+        "registration_number": "MNO345",
+        "created_at": "2023-08-29T01:05:27.343Z",
+        "updated_at": "2023-08-28T07:33:32.180Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "092d74af-1fe6-4f77-9d25-1de89f3d7984",
+        "date": "2023-08-28T18:38:39.141Z",
+        "duration": 61063,
+        "mileage": 21214,
+        "created_at": "2023-08-28T18:13:44.143Z",
+        "updated_at": "2023-08-28T11:15:08.060Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "f861b7b2-a9e2-40c8-bf48-473741066753"
+      },
+      {
+        "id": "9c39b0c6-e8da-4b3f-bc29-a279829c00ca",
+        "date": "2023-08-28T14:56:24.782Z",
+        "duration": 69254,
+        "mileage": 33018,
+        "created_at": "2023-08-28T19:24:27.683Z",
+        "updated_at": "2023-08-29T05:32:42.030Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "f8bf3327-4012-4d23-b25a-34ffcae0d19c"
+      },
+      {
+        "id": "b45b5cc2-85b1-4ccc-8e77-c3d7aec4f3d8",
+        "date": "2023-08-29T04:51:34.534Z",
+        "duration": 42031,
+        "mileage": 64611,
+        "created_at": "2023-08-28T14:13:56.861Z",
+        "updated_at": "2023-08-28T23:03:07.757Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5a51445c-77e0-4d54-90a0-04aa0a320809"
+      },
+      {
+        "id": "9f587d7a-0361-4b14-b1d3-be84a4ae58c7",
+        "date": "2023-08-29T02:15:21.598Z",
+        "duration": 71446,
+        "mileage": 91132,
+        "created_at": "2023-08-28T09:31:29.176Z",
+        "updated_at": "2023-08-28T10:14:54.295Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "4980b3f9-05e8-4263-95b6-e6bd0970b5ca"
+      },
+      {
+        "id": "fe57a495-8224-49b3-9251-f3b133db2964",
+        "date": "2023-08-29T05:15:50.677Z",
+        "duration": 77232,
+        "mileage": 60097,
+        "created_at": "2023-08-28T13:25:56.689Z",
+        "updated_at": "2023-08-28T21:50:32.397Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "26c01bc3-9d38-4865-8151-2217419930ea"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "8f87f2b8-8d2c-4748-a796-ca25b710f2db",
+        "start_time": "2023-08-29T06:48:10.669Z",
+        "end_time": "2023-08-28T09:16:01.864Z",
+        "created_at": "2023-08-28T14:31:17.345Z",
+        "updated_at": "2023-08-29T05:08:57.383Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5a51445c-77e0-4d54-90a0-04aa0a320809"
+      },
+      {
+        "id": "991ba595-7f4d-4d7b-a053-d785d730aefd",
+        "start_time": "2023-08-28T08:36:46.651Z",
+        "end_time": "2023-08-28T21:54:54.356Z",
+        "created_at": "2023-08-28T14:12:55.813Z",
+        "updated_at": "2023-08-29T04:00:34.870Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "26c01bc3-9d38-4865-8151-2217419930ea"
+      },
+      {
+        "id": "eeb9e811-4b2f-4420-b96e-afaf364305c6",
+        "start_time": "2023-08-29T05:15:54.501Z",
+        "end_time": "2023-08-28T09:10:10.304Z",
+        "created_at": "2023-08-28T23:45:54.094Z",
+        "updated_at": "2023-08-29T00:00:06.464Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5a51445c-77e0-4d54-90a0-04aa0a320809"
+      },
+      {
+        "id": "61a1c8a7-4b36-41b0-831e-c2741451cfa0",
+        "start_time": "2023-08-28T09:39:16.818Z",
+        "end_time": "2023-08-28T09:26:18.698Z",
+        "created_at": "2023-08-29T05:10:19.504Z",
+        "updated_at": "2023-08-28T15:35:11.557Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "26c01bc3-9d38-4865-8151-2217419930ea"
+      },
+      {
+        "id": "e1a541e6-ec5d-474b-9f87-f5bcc44f2031",
+        "start_time": "2023-08-29T04:55:46.293Z",
+        "end_time": "2023-08-28T07:14:15.865Z",
+        "created_at": "2023-08-28T19:48:43.385Z",
+        "updated_at": "2023-08-28T10:53:39.456Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "26c01bc3-9d38-4865-8151-2217419930ea"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "fe406632-69c7-4205-9bdb-17fb9d3e6eb0",
+        "date": "2023-08-29T00:01:10.670Z",
+        "usage_duration": 60104,
+        "total_mileage": 20701,
+        "average_speed": 28421,
+        "created_at": "2023-08-29T01:41:14.247Z",
+        "updated_at": "2023-08-28T22:32:58.426Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "f8bf3327-4012-4d23-b25a-34ffcae0d19c"
+      },
+      {
+        "id": "1f4b3e94-aabd-4d7b-8b6f-b17cc89b4aa0",
+        "date": "2023-08-28T15:53:09.503Z",
+        "usage_duration": 59658,
+        "total_mileage": 60513,
+        "average_speed": 3678,
+        "created_at": "2023-08-28T17:24:21.126Z",
+        "updated_at": "2023-08-28T12:54:41.668Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "4980b3f9-05e8-4263-95b6-e6bd0970b5ca"
+      },
+      {
+        "id": "28f329f6-0b0b-4246-a19f-70a1e014695f",
+        "date": "2023-08-28T18:13:11.578Z",
+        "usage_duration": 14921,
+        "total_mileage": 41775,
+        "average_speed": 2056,
+        "created_at": "2023-08-29T01:12:04.419Z",
+        "updated_at": "2023-08-28T18:56:06.267Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "f8bf3327-4012-4d23-b25a-34ffcae0d19c"
+      },
+      {
+        "id": "cd76c26e-88cf-4f6c-afeb-7a2838d73f83",
+        "date": "2023-08-29T01:30:32.556Z",
+        "usage_duration": 46822,
+        "total_mileage": 21915,
+        "average_speed": 34551,
+        "created_at": "2023-08-28T08:05:58.261Z",
+        "updated_at": "2023-08-28T22:06:40.300Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5a51445c-77e0-4d54-90a0-04aa0a320809"
+      },
+      {
+        "id": "27149c32-b995-402f-b1ec-6022c4b987c0",
+        "date": "2023-08-28T17:59:00.407Z",
+        "usage_duration": 68344,
+        "total_mileage": 99500,
+        "average_speed": 59639,
+        "created_at": "2023-08-28T17:37:37.289Z",
+        "updated_at": "2023-08-28T16:22:29.682Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5a51445c-77e0-4d54-90a0-04aa0a320809"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "43de847f-67f1-485e-96ee-335290d1f0cc",
+        "email": "Haylee_Cartwright39@yahoo.com",
+        "firstName": "Mary",
+        "lastName": "McDermott",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57659148",
+        "tenantId": null
+      },
+      {
+        "reference": "24af77bb-e6cf-4ed1-b3db-f10bb8ea73ac",
+        "email": "Hertha.Kovacek53@yahoo.com",
+        "firstName": "Emelie",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71197555",
+        "tenantId": null
+      },
+      {
+        "reference": "905b9685-c522-4d89-84ed-462d1cbfee61",
+        "email": "May.Steuber@yahoo.com",
+        "firstName": "Libby",
+        "lastName": "Gleason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52492175",
+        "tenantId": null
+      },
+      {
+        "reference": "7f9edf81-fd6d-4f0d-b4e5-7d8346baced6",
+        "email": "Howell84@gmail.com",
+        "firstName": "Frieda",
+        "lastName": "Weber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47341922",
+        "tenantId": null
+      },
+      {
+        "reference": "a1a9e2fe-fc6e-4225-aa7c-c9a1dc105a5a",
+        "email": "Stephania69@gmail.com",
+        "firstName": "Jalon",
+        "lastName": "Lockman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82339278",
+        "tenantId": null
+      }
+    ]
+  }
+]
